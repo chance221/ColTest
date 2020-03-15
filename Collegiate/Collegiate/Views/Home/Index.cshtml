@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="jumbotron" style="background-image: url(../content/green-img1.jpg);">
+    <h1 style="color: white">Ride Green. Ride Collegiate.</h1>
+    <p style="color: white">Let's get started...</p>
+</div>
+
+<div class="cta-container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <a class="cta-button" href="~/Identity/Account/Login">Login Now</a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a class="cta-button" href="~/Identity/Account/Register">Register Now</a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <a class="cta-button" asp-area="" asp-controller="Home" asp-action="About">More Information</a>
+        </div>
+    </div>
+</div>
+
+@*<div class="cta-container">
+        <a class="cta-button" style="margin-left:200px;" href="~/Identity/Account/Login">Login Now</a>
+        <a class="cta-button" style="margin-left:100px;" href="~/Identity/Account/Register">Register Now</a>
+        <a class="cta-button" style="margin-left:100px;" asp-area="" asp-controller="Home" asp-action="About">More Information</a>
+</div>*@
